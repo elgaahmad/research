@@ -1,67 +1,90 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content='15; url=https://www.elga-ahmad.com' http-equiv='refresh'/>
-    <title>Research Repository</title>
+    <title>Elga's Research Repository</title>
+    <meta content='11; url=https://www.elga-ahmad.com' http-equiv='refresh'/>
+
     <style>
-        /* Reset margin dan padding */
-        * {
+        body {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #f5f7fa;
             color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            text-align: center;
-            padding: 20px;
+            line-height: 1.7;
         }
 
-        img {
-            max-width: 300px;
-            width: 100%;
-            height: auto;
-            margin-bottom: 20px;
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 40px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
         }
 
         h1 {
-            font-size: 2rem;
-            margin-bottom: 10px;
+            margin-top: 0;
+            color: #1f2937;
+            font-size: 2.5rem;
+            border-bottom: 3px solid #2563eb;
+            padding-bottom: 10px;
         }
 
         p {
             font-size: 1.1rem;
-            color: #555;
         }
 
-        footer {
-            position: absolute;
-            bottom: 10px;
-            font-size: 0.9rem;
-            color: #888;
+        .signature {
+            margin-top: 30px;
+            font-style: italic;
+        }
+
+        .author {
+            font-weight: 600;
+            color: #1f2937;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px;
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
         }
     </style>
 </head>
-<body>    
-    <!-- Gambar ilustrasi -->
-    <img src="http://research.elga-ahmad.com/elga-ahmad-research-repo.jpg?text=Elga+PRAYOGA+Research+Repository" alt="Elga's Research Repository">
+<body>
 
-    <!-- Pesan utama -->
-    <h1>Research Repository</h1>
-    <p>This repository contains materials related to my research in language education, applied linguistics, language learning, multilingualism, and digital pedagogy. It brings together publications, datasets, code, teaching resources, research notes, and other scholarly outputs. The repository serves both as a working archive and as a platform for sharing research resources with the wider academic community.</p><br/><br/>
-    <p>Best, <br/>Elga A. PRAYOGA</p>
-    
-    <!-- Footer -->
-    <footer>&copy; 2026 elga-ahmad.com</footer>
+    <div class="container">
+        <h1>Research Repository</h1>
+
+        <p>
+            This repository contains materials related to my research in language education,
+            applied linguistics, language learning, multilingualism, and digital pedagogy.
+            It brings together publications, datasets, code, teaching resources, research notes,
+            and other scholarly outputs.
+        </p>
+
+        <p>
+            The repository serves both as a working archive and as a platform for sharing
+            research resources with the wider academic community.
+        </p>
+
+        <div class="signature">
+            Best,<br>
+            <span class="author">Elga A. PRAYOGA</span>
+        </div>
+    </div>
 
 </body>
 </html>
